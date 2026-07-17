@@ -1,0 +1,64 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Anes Laieb — Full-Stack Web and Mobile Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1221"/>
+      <stop offset="0.55" stop-color="#111a30"/>
+      <stop offset="1" stop-color="#1a1440"/>
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="0" cy="0" r="1" gradientTransform="translate(1040 60) rotate(120) scale(320)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="0" cy="0" r="1" gradientTransform="translate(120 300) rotate(-45) scale(360)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="60" y1="170" x2="640" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.5" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#F472B6"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="62" y1="0" x2="470" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#F472B6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#glowCyan)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#glowPurple)"/>
+  <rect x="1" y="1" width="1198" height="298" rx="23" fill="none" stroke="#2A3554" stroke-opacity="0.6"/>
+
+  <!-- availability pill -->
+  <rect x="60" y="42" width="266" height="34" rx="17" fill="#0E1A2E" stroke="#1E5B3A"/>
+  <circle cx="80" cy="59" r="5" fill="#22C55E"/>
+  <text x="96" y="64" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5" fill="#4ADE80">AVAILABLE FOR FREELANCE</text>
+
+  <!-- name -->
+  <text x="58" y="152" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="66" font-weight="800" fill="#F8FAFC">Anes Laieb</text>
+  <!-- underline -->
+  <rect x="62" y="168" width="360" height="4" rx="2" fill="url(#rule)"/>
+
+  <!-- role -->
+  <text x="61" y="212" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="url(#accent)">Full-Stack Web &amp; Mobile Developer</text>
+
+  <!-- tagline -->
+  <text x="62" y="248" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#93A3BC">React · Next.js · Expo · Node.js  —  designed in Figma, shipped to prod.</text>
+
+  <!-- code window decoration (absolute coords, no group transform) -->
+  <rect x="792" y="78" width="348" height="150" rx="14" fill="#101B33" stroke="#34456B" stroke-width="1.5"/>
+  <circle cx="816" cy="102" r="6" fill="#FF5F56"/>
+  <circle cx="838" cy="102" r="6" fill="#FFBD2E"/>
+  <circle cx="860" cy="102" r="6" fill="#27C93F"/>
+  <rect x="886" y="97" width="130" height="10" rx="5" fill="#22304F"/>
+  <rect x="816" y="136" width="46" height="9" rx="4.5" fill="#C084FC"/>
+  <rect x="870" y="136" width="90" height="9" rx="4.5" fill="#8595B3"/>
+  <rect x="968" y="136" width="60" height="9" rx="4.5" fill="#38BDF8"/>
+  <rect x="836" y="158" width="70" height="9" rx="4.5" fill="#38BDF8"/>
+  <rect x="914" y="158" width="120" height="9" rx="4.5" fill="#4ADE80"/>
+  <rect x="836" y="180" width="52" height="9" rx="4.5" fill="#F472B6"/>
+  <rect x="896" y="180" width="86" height="9" rx="4.5" fill="#8595B3"/>
+  <rect x="816" y="202" width="40" height="9" rx="4.5" fill="#C084FC"/>
+  <rect x="864" y="202" width="150" height="9" rx="4.5" fill="#8595B3"/>
+</svg>
